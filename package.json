@@ -1,16 +1,7 @@
 {
   "name": "front-end-styleguide-cli",
   "version": "1.0.0",
-  "description": "CLI version for the package `front-end-styleguide`.",
-  "keywords": [
-    "front-end",
-    "living styleguide",
-    "css",
-    "scss",
-    "babel",
-    "browserify",
-    "handlebars"
-  ],
+  "description": "CLI for front-end-styleguide",
   "author": "Fynn Becker <info@fynn-becker.de>",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
