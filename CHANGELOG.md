@@ -5,8 +5,8 @@
 ## 1.0.1
 2016-12-02
 
-## Added
-- Set up CLI
+## Improved
+- Updated documentation
 
 
 
