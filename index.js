@@ -35,12 +35,13 @@ let searchLocalInstallation = (dir) => {
 let packageJSON = {
   scripts: {
     start: './node_modules/.bin/front-end-styleguide',
+    development: './node_modules/.bin/front-end-styleguide development',
     preview: './node_modules/.bin/front-end-styleguide preview',
     production: './node_modules/.bin/front-end-styleguide production'
   },
   devDependencies: {
     'babel-preset-es2015': '^6.9.0',
-    'front-end-styleguide': '^2.1.0',
+    'front-end-styleguide': '^2.1.1',
     'normalize.css': '^5.0.0',
     'svgxuse': '^1.1.20'
   }
