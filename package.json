@@ -19,6 +19,7 @@
   "bin": {
     "front-end-styleguide": "./bin/front-end-styleguide.js"
   },
+  "preferGlobal": true,
   "repository": "mvsde/styleguide-cli",
   "dependencies": {
     "chalk": "^1.1.3",
