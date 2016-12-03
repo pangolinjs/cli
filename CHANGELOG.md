@@ -2,6 +2,18 @@
 
 
 
+## 1.1.0
+2016-12-03
+
+## Improved
+- Cross-platform improvements
+- Readme fixes
+
+## Added
+- Switch to external init package
+
+
+
 ## 1.0.2
 2016-12-03
 
