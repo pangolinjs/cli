@@ -41,9 +41,9 @@ let packageJSON = {
   },
   devDependencies: {
     'babel-preset-es2015': '^6.9.0',
-    'front-end-styleguide': '^2.1.1',
+    'front-end-styleguide': '^2.1.3',
     'normalize.css': '^5.0.0',
-    'svgxuse': '^1.1.20'
+    'svgxuse': '^1.1.23'
   }
 };
 
@@ -157,18 +157,22 @@ let updateProject = function(dir) {
   spawn('npm', ['install'], {
     cwd: dir,
     stdio: 'inherit'
+  }).on('close', (code) => {
+    process.exit(code);
   });
 };
 
 
 
-/* RUN GULP with optional ARGUMENTS
+/* RUN STYLEGUIDE with optional ARGUMENTS
  * ========================================================================== */
 
-let spawnGulp = function(dir, task) {
+let spawnStyleguide = function(dir, task) {
   spawn(`"${dir}/node_modules/.bin/front-end-styleguide"`, [task], {
     shell: true,
     stdio: 'inherit'
+  }).on('close', (code) => {
+    process.exit(code);
   });
 };
 
@@ -187,6 +191,6 @@ module.exports = function() {
     updateProject(process.cwd());
   } else {
     searchLocalInstallation(process.cwd());
-    spawnGulp(process.cwd(), argument);
+    spawnStyleguide(process.cwd(), argument);
   }
 };

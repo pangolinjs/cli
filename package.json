@@ -1,6 +1,6 @@
 {
   "name": "front-end-styleguide-cli",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "CLI for front-end-styleguide",
   "author": "Fynn Becker <info@fynn-becker.de>",
   "scripts": {
