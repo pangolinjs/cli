@@ -21,9 +21,13 @@ let searchLocalInstallation = (dir) => {
   try {
     require.resolve(`${dir}/node_modules/front-end-styleguide`);
   } catch (error) {
-    console.error(chalk.black.bgRed(' ERROR ') + ' ' + chalk.red('Local front-end-styleguide not found.'));
-    console.error('Run ' + chalk.underline('front-end-styleguide init') + ' to start a new project.');
-    process.exit(error.code);
+    console.error(`
+${chalk.black.bgRed(' ERROR ')} Local front-end-styleguide not found in ${chalk.magenta(dir)}
+
+Start a new project: front-end-styleguide init
+Install locally:     npm install front-end-styleguide --save-dev
+`);
+    process.exit(1);
   }
 };
 
@@ -150,20 +154,6 @@ let initProject = function(dir) {
 
 
 
-/* UPDATE PROJECT
- * ========================================================================== */
-
-let updateProject = function(dir) {
-  spawn('npm', ['install'], {
-    cwd: dir,
-    stdio: 'inherit'
-  }).on('close', (code) => {
-    process.exit(code);
-  });
-};
-
-
-
 /* RUN STYLEGUIDE with optional ARGUMENTS
  * ========================================================================== */
 
@@ -186,9 +176,6 @@ module.exports = function() {
 
   if (argument === 'init') {
     initProject(process.cwd());
-  } else if (argument === 'update') {
-    searchLocalInstallation(process.cwd());
-    updateProject(process.cwd());
   } else {
     searchLocalInstallation(process.cwd());
     spawnStyleguide(process.cwd(), argument);
