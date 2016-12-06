@@ -1,6 +1,8 @@
 # CLI for Front End Styleguide
 [https://github.com/mvsde/styleguide](https://github.com/mvsde/styleguide)
 
+[![NPM version][npm-image]][npm-url] [![Dependencies][dependencies-image]][npm-url]
+
 
 ## Installation
 
@@ -28,3 +30,9 @@ The following tasks are available:
   * Minifies CSS, JavaScript and images.
   * Doesn't generate any HTML.
   * Errors break pipe.
+
+
+[npm-image]: https://img.shields.io/npm/v/front-end-styleguide-cli.svg?style=flat-square
+[npm-url]: https://www.npmjs.com/package/front-end-styleguide-cli
+
+[dependencies-image]: https://img.shields.io/david/mvsde/styleguide-cli.svg?style=flat-square
