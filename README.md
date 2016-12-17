@@ -6,7 +6,7 @@
 
 ## Installation
 
-Global installation required: `npm install -g front-end-styleguide-cli`.
+Install globally with `npm install -g front-end-styleguide-cli`.
 
 
 ## Project Creation
