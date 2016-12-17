@@ -2,6 +2,15 @@
 
 
 
+## 1.1.2
+2016-12-17
+
+## Added
+- Linting script
+- EditorConfig
+
+
+
 ## 1.1.1
 2016-12-04
 
