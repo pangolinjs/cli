@@ -1,6 +1,13 @@
 # Changelog
 
 
+## 1.2.0
+2016-12-31
+
+## Updated
+- Dependencies
+
+
 
 ## 1.1.2
 2016-12-17
