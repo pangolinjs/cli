@@ -32,6 +32,7 @@ The following tasks are available:
   * Errors break pipe.
 
 Custom configuration files can be specified:
+
 `front-end-styleguide [task] --config=path/to/config.json --paths=path/to/paths.json`
 
 
