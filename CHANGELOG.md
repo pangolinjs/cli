@@ -1,6 +1,15 @@
 # Changelog
 
 
+
+## 1.3.0
+2017-01-03
+
+## Added
+- CLI options for configuration files
+
+
+
 ## 1.2.0
 2016-12-31
 
