@@ -31,6 +31,9 @@ The following tasks are available:
   * Doesn't generate any HTML.
   * Errors break pipe.
 
+  Custom configuration files can be specified:
+  * `front-end-styleguide [task] --config=path/to/config.json --paths=path/to/paths.json`
+
 
 [npm-image]: https://img.shields.io/npm/v/front-end-styleguide-cli.svg?style=flat-square
 [npm-url]: https://www.npmjs.com/package/front-end-styleguide-cli

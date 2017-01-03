@@ -5,10 +5,9 @@
 /* DEPENDENCIES
  * ========================================================================== */
 
-const chalk   = require('chalk');
-const init    = require('front-end-styleguide-init');
-const process = require('process');
-const spawn   = require('child_process').spawn;
+const chalk = require('chalk');
+const init  = require('front-end-styleguide-init');
+const spawn = require('child_process').spawn;
 
 
 
@@ -34,8 +33,8 @@ Install locally:     npm install front-end-styleguide --save-dev
 /* RUN STYLEGUIDE with optional ARGUMENTS
  * ========================================================================== */
 
-let spawnStyleguide = function(dir, task) {
-  spawn(`"${dir}/node_modules/.bin/front-end-styleguide"`, [task], {
+let spawnStyleguide = function(dir, args) {
+  spawn(`"${dir}/node_modules/.bin/front-end-styleguide"`, args, {
     shell: true,
     stdio: 'inherit'
   }).on('close', (code) => {
@@ -49,12 +48,13 @@ let spawnStyleguide = function(dir, task) {
  * ========================================================================== */
 
 module.exports = function() {
-  let argument = process.argv[2] || 'default';
+  let processArgs = process.argv;
+  let args = processArgs.slice(2, processArgs.length);
 
-  if (argument === 'init') {
+  if (args[0] === 'init') {
     init(process.cwd());
   } else {
     searchLocalInstallation(process.cwd());
-    spawnStyleguide(process.cwd(), argument);
+    spawnStyleguide(process.cwd(), args);
   }
 };
