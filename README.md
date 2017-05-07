@@ -1,7 +1,11 @@
 # CLI for Front End Styleguide
-[https://github.com/mvsde/styleguide](https://github.com/mvsde/styleguide)
 
-[![NPM version][npm-image]][npm-url] [![Dependencies][dependencies-image]][npm-url]
+[![JavaScript Style Guide][standard-image]][standard-url]
+
+[![NPM version][npm-image]][npm-url]
+[![Dependencies][dependencies-image]][npm-url]
+
+This package initializes and launches the [Front End Styleguide](https://github.com/mvsde/styleguide).
 
 
 ## Installation
@@ -35,6 +39,9 @@ Custom configuration files can be specified:
 
 `front-end-styleguide [task] --config=path/to/config.json --paths=path/to/paths.json`
 
+
+[standard-image]: https://cdn.rawgit.com/feross/standard/master/badge.svg
+[standard-url]: https://github.com/feross/standard
 
 [npm-image]: https://img.shields.io/npm/v/front-end-styleguide-cli.svg?style=flat-square
 [npm-url]: https://www.npmjs.com/package/front-end-styleguide-cli
