@@ -2,6 +2,15 @@
 
 
 
+## 2.0.0
+2017-05-07
+
+### Improved
+- Switched to JavaScript Standard Style
+- Adjustments for Styleguide v3
+
+
+
 ## 1.3.0
 2017-01-03
 
