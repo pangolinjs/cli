@@ -2,7 +2,18 @@
 
 
 
-## 2.0.0
+## 1.4.1
+2017-06-03
+
+### Added
+- `package-lock.json`
+
+### Updated
+- Dependencies
+
+
+
+## 1.4.0
 2017-05-07
 
 ### Improved
