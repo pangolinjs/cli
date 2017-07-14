@@ -408,8 +408,8 @@ flat-cache@^1.2.1:
     write "^0.2.1"
 
 front-end-styleguide-init@^2.0.6:
-  version "2.6.0"
-  resolved "https://registry.yarnpkg.com/front-end-styleguide-init/-/front-end-styleguide-init-2.6.0.tgz#99a03f8e7f45eef0647a77854c7e9ad47bc506a7"
+  version "2.6.1"
+  resolved "https://registry.yarnpkg.com/front-end-styleguide-init/-/front-end-styleguide-init-2.6.1.tgz#46b2e57ce86d2318112c74532b4ecb625c5816fb"
   dependencies:
     chalk "^2.0.1"
     fs-extra "^3.0.1"
