@@ -5,12 +5,12 @@
 [![NPM version][npm-image]][npm-url]
 [![Dependencies][dependencies-image]][npm-url]
 
-This package initializes and launches the [Front End Styleguide](https://github.com/mvsde/styleguide).
+This package provides a global CLI interface for the [Front End Styleguide](https://github.com/mvsde/styleguide).
 
 
 ## Installation
 
-Install globally with `npm install -g front-end-styleguide-cli`.
+Install globally with `npm install -g front-end-styleguide-cli` or `yarn add global front-end-styleguide-cli`.
 
 
 ## Project Creation
