@@ -1,16 +1,8 @@
-'use strict'
-
-/* DEPENDENCIES
- * ========================================================================== */
-
 const chalk = require('chalk')
 const init = require('front-end-styleguide-init')
 const spawn = require('child_process').spawn
 
-/* SEARCH LOCAL INSTALLATION
- * ========================================================================== */
-
-let searchLocalInstallation = dir => {
+const searchLocalInstallation = dir => {
   try {
     require.resolve(`${dir}/node_modules/front-end-styleguide`)
   } catch (error) {
@@ -24,20 +16,15 @@ Install locally:     npm install front-end-styleguide --save-dev
   }
 }
 
-/* RUN STYLEGUIDE with optional ARGUMENTS
- * ========================================================================== */
-
-let spawnStyleguide = (dir, args) => {
-  spawn(`"${dir}/node_modules/.bin/front-end-styleguide"`, args, {
+const spawnStyleguide = (dir, args) => {
+  spawn(`"./node_modules/.bin/front-end-styleguide"`, args, {
+    cwd: dir,
     shell: true,
     stdio: 'inherit'
   }).on('close', (code) => {
     process.exit(code)
   })
 }
-
-/* EXPOSE to OUTER SPACE
- * ========================================================================== */
 
 module.exports = () => {
   let processArgs = process.argv
