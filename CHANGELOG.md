@@ -2,6 +2,17 @@
 
 
 
+## 1.5.0
+2017-07-19
+
+### Improved
+- Error logging
+
+### Fixed
+- Handoff to local styleguide
+
+
+
 ## 1.4.3
 2017-07-14
 

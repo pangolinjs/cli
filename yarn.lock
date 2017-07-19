@@ -408,11 +408,11 @@ flat-cache@^1.2.1:
     write "^0.2.1"
 
 front-end-styleguide-init@^2.0.6:
-  version "2.6.1"
-  resolved "https://registry.yarnpkg.com/front-end-styleguide-init/-/front-end-styleguide-init-2.6.1.tgz#46b2e57ce86d2318112c74532b4ecb625c5816fb"
+  version "2.7.0"
+  resolved "https://registry.yarnpkg.com/front-end-styleguide-init/-/front-end-styleguide-init-2.7.0.tgz#90a5cfebf555e6cc2d5a225edced6f7caaf95c11"
   dependencies:
     chalk "^2.0.1"
-    fs-extra "^3.0.1"
+    fs-extra "^4.0.0"
     git-config-path "^1.0.1"
     git-up "^2.0.8"
     inquirer "^3.1.1"
@@ -423,9 +423,9 @@ fs-exists-sync@^0.1.0:
   version "0.1.0"
   resolved "https://registry.yarnpkg.com/fs-exists-sync/-/fs-exists-sync-0.1.0.tgz#982d6893af918e72d08dec9e8673ff2b5a8d6add"
 
-fs-extra@^3.0.1:
-  version "3.0.1"
-  resolved "https://registry.yarnpkg.com/fs-extra/-/fs-extra-3.0.1.tgz#3794f378c58b342ea7dbbb23095109c4b3b62291"
+fs-extra@^4.0.0:
+  version "4.0.0"
+  resolved "https://registry.yarnpkg.com/fs-extra/-/fs-extra-4.0.0.tgz#414fb4ca2d2170ba0014159d3a8aec3303418d9e"
   dependencies:
     graceful-fs "^4.1.2"
     jsonfile "^3.0.0"
