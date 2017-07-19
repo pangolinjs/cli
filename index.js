@@ -1,17 +1,13 @@
-const chalk = require('chalk')
 const init = require('front-end-styleguide-init')
 const spawn = require('child_process').spawn
+
+const log = require('./lib/log')
 
 const searchLocalInstallation = dir => {
   try {
     require.resolve(`${dir}/node_modules/front-end-styleguide`)
   } catch (error) {
-    console.error(`
-${chalk.black.bgRed('ERROR')} Local front-end-styleguide not found in ${chalk.magenta(dir)}
-
-Start a new project: front-end-styleguide init
-Install locally:     npm install front-end-styleguide --save-dev
-`)
+    log.styleguideNotFound(dir)
     process.exit(1)
   }
 }
