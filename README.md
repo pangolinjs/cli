@@ -5,20 +5,31 @@
 [![NPM version][npm-image]][npm-url]
 [![Dependencies][dependencies-image]][npm-url]
 
-This package provides a global CLI interface for the [Front End Styleguide](https://github.com/mvsde/styleguide).
-
-
-## Installation
-
-Install globally with `npm install -g front-end-styleguide-cli` or `yarn add global front-end-styleguide-cli`.
-
-
-## Project Creation
-
-Create a new project in an empty folder with `front-end-styleguide init`.
+This package provides a global CLI interface for the [Front End Styleguide](https://github.com/mvsde/styleguide). It uses the [Init package](https://github.com/mvsde/styleguide-init) to create new projects.
 
 
 ## Usage
+
+### Installation
+
+With Yarn:  
+`yarn add global front-end-styleguide-cli`
+
+With npm:  
+`npm install -g front-end-styleguide-cli`
+
+On some systems root (`sudo`) is needed to install global packages.
+
+
+### Project Creation
+
+Create a new project in an empty folder:
+`front-end-styleguide init`
+
+If the folder already contains a Git repository, this information will be used to populate the `package.json`.
+
+
+### Tasks
 
 The following tasks are available:
 * `front-end-styleguide` to start the default task.
@@ -34,6 +45,8 @@ The following tasks are available:
   * Minifies CSS, JavaScript and images.
   * Doesn't generate any HTML.
   * Errors break pipe.
+* `front-end-styleguide test` to run all tests.
+  * Lints CSS and JavaScript.
 
 Custom configuration files can be specified:
 
