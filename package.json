@@ -2,7 +2,19 @@
   "name": "front-end-styleguide-cli",
   "version": "1.5.1",
   "description": "CLI for front-end-styleguide",
-  "author": "Fynn Becker <info@fynn-becker.de>",
+  "author": {
+    "name": "Fynn Becker",
+    "email": "info@fynn-becker.de"
+  },
+  "homepage": "http://front-end-style.guide",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/front-end-styleguide/styleguide-cli"
+  },
+  "bugs": {
+    "url": "https://github.com/front-end-styleguide/styleguide-cli/issues",
+    "email": "help@front-end-style.guide"
+  },
   "scripts": {
     "lint": "eslint **/*.js",
     "pretest": "npm run lint",
@@ -13,7 +25,6 @@
     "front-end-styleguide": "./bin/front-end-styleguide.js"
   },
   "preferGlobal": true,
-  "repository": "mvsde/styleguide-cli",
   "dependencies": {
     "chalk": "^2.0.1",
     "front-end-styleguide-init": "^2.0.6"
