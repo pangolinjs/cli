@@ -1,9 +1,8 @@
-# CLI for Front End Styleguide
-
-[![JavaScript Style Guide][standard-image]][standard-url]
+# <img alt="" src="https://cdn.rawgit.com/front-end-styleguide/brand/master/mark/mark.svg" width="24"> CLI for Front End Styleguide
 
 [![NPM version][npm-image]][npm-url]
 [![Dependencies][dependencies-image]][npm-url]
+[![JavaScript Standard Style][standard-image]][standard-url]
 
 This package provides a global CLI interface for the [Front End Styleguide](https://github.com/front-end-styleguide/styleguide). It uses the [Init package](https://github.com/front-end-styleguide/styleguide-init) to create new projects.
 
@@ -53,10 +52,10 @@ Custom configuration files can be specified:
 `front-end-styleguide [task] --config=path/to/config.json --paths=path/to/paths.json`
 
 
-[standard-image]: https://cdn.rawgit.com/feross/standard/master/badge.svg
-[standard-url]: https://github.com/feross/standard
-
 [npm-image]: https://img.shields.io/npm/v/front-end-styleguide-cli.svg?style=flat-square
 [npm-url]: https://www.npmjs.com/package/front-end-styleguide-cli
 
 [dependencies-image]: https://img.shields.io/david/front-end-styleguide/styleguide-cli.svg?style=flat-square
+
+[standard-image]: https://img.shields.io/badge/code_style-standard-brightgreen.svg?style=flat-square
+[standard-url]: https://standardjs.com
