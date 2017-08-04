@@ -2,6 +2,15 @@
 
 
 
+## 1.5.2
+2017-08-04
+
+### Updated
+- Dependencies
+- Meta information
+
+
+
 ## 1.5.1
 2017-07-25
 
