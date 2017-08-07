@@ -1,12 +1,12 @@
 {
   "name": "front-end-styleguide-cli",
   "version": "1.5.2",
-  "description": "CLI for front-end-styleguide",
+  "description": "Provides access to the global CLI interface for the Front End Styleguide",
   "author": {
     "name": "Fynn Becker",
     "email": "info@fynn-becker.de"
   },
-  "homepage": "http://front-end-style.guide",
+  "homepage": "https://front-end-style.guide",
   "repository": {
     "type": "git",
     "url": "https://github.com/front-end-styleguide/styleguide-cli"
