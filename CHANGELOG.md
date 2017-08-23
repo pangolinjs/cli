@@ -2,6 +2,17 @@
 
 
 
+## 1.5.3
+2017-08-23
+
+### Improved
+- Readme
+
+### Updated
+- Dependencies
+
+
+
 ## 1.5.2
 2017-08-04
 

@@ -1,6 +1,6 @@
 {
   "name": "front-end-styleguide-cli",
-  "version": "1.5.2",
+  "version": "1.5.3",
   "description": "Provides access to the global CLI interface for the Front End Styleguide",
   "author": {
     "name": "Fynn Becker",
