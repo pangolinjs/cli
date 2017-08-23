@@ -11,11 +11,13 @@ This package provides a global CLI interface for the [Front End Styleguide](http
 
 ### Installation
 
-With Yarn:  
-`yarn add global front-end-styleguide-cli`
+```bash
+# Yarn
+yarn global add front-end-styleguide-cli
 
-With npm:  
-`npm install -g front-end-styleguide-cli`
+# npm
+npm install -g front-end-styleguide-cli
+```
 
 On some systems root (`sudo`) is needed to install global packages.
 
@@ -31,25 +33,23 @@ If the folder already contains a Git repository, this information will be used t
 ### Tasks
 
 The following tasks are available:
-* `front-end-styleguide` to start the default task.
+* `front-end-styleguide dev` to start the default task.
   * Watches for file changes.
   * Starts Browsersync.
-* `front-end-styleguide development` to start the default task
+* `front-end-styleguide build:dev` to start the default task
   * No file watching / Browsersync.
-* `front-end-styleguide preview` to create a prototype preview.
+* `front-end-styleguide build:prev` to create a prototype preview.
   * Minifies CSS, JavaScript and images.
   * Doesn't generate component HTML.
   * Errors break pipe.
-* `front-end-styleguide production` to create production ready files.
+* `front-end-styleguide build` to create production ready files.
   * Minifies CSS, JavaScript and images.
   * Doesn't generate any HTML.
   * Errors break pipe.
-* `front-end-styleguide test` to run all tests.
-  * Lints CSS and JavaScript.
 
-Custom configuration files can be specified:
+Custom configuration files can be specified: `front-end-styleguide [task] --config=path/to/config.json --paths=path/to/paths.json`.
 
-`front-end-styleguide [task] --config=path/to/config.json --paths=path/to/paths.json`
+For more information take a look at the [templates of the init package](https://github.com/front-end-styleguide/styleguide-init/blob/master/templates).
 
 
 [npm-image]: https://img.shields.io/npm/v/front-end-styleguide-cli.svg?style=flat-square
