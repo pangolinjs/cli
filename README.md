@@ -7,9 +7,7 @@
 This package provides a global CLI interface for the [Front End Styleguide](https://github.com/front-end-styleguide/styleguide). It uses the [Init package](https://github.com/front-end-styleguide/styleguide-init) to create new projects.
 
 
-## Usage
-
-### Installation
+## Installation
 
 ```bash
 # Yarn
@@ -22,7 +20,7 @@ npm install -g front-end-styleguide-cli
 On some systems root (`sudo`) is needed to install global packages.
 
 
-### Project Creation
+## Project Creation
 
 Create a new project in an empty folder:
 `front-end-styleguide init`
@@ -30,7 +28,7 @@ Create a new project in an empty folder:
 If the folder already contains a Git repository, this information will be used to populate the `package.json`.
 
 
-### Tasks
+## Usage
 
 The following tasks are available:
 * `front-end-styleguide dev` to start the default task.
@@ -50,6 +48,19 @@ The following tasks are available:
 Custom configuration files can be specified: `front-end-styleguide [task] --config=path/to/config.json --paths=path/to/paths.json`.
 
 For more information take a look at the [templates of the init package](https://github.com/front-end-styleguide/styleguide-init/blob/master/templates).
+
+
+## Test
+
+```bash
+# Yarn
+yarn test
+
+# npm
+npm test
+```
+
+The test needs manual input during the styleguide init phase.
 
 
 [npm-image]: https://img.shields.io/npm/v/front-end-styleguide-cli.svg?style=flat-square

@@ -18,7 +18,12 @@
   "scripts": {
     "lint": "eslint **/*.js",
     "pretest": "npm run lint",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "npm-run-all -s test:*",
+    "test:clean": "rimraf ./test",
+    "test:init": "mkdirp ./test && cd ./test && node ../bin/front-end-styleguide.js init",
+    "test:install": "cd ./test && npm install",
+    "test:dev": "cd ./test && node ../bin/front-end-styleguide.js build:dev",
+    "test:build": "cd ./test && node ../bin/front-end-styleguide.js build:dist"
   },
   "main": "index.js",
   "bin": {
@@ -35,7 +40,10 @@
     "eslint-plugin-import": "^2.2.0",
     "eslint-plugin-node": "^5.0.0",
     "eslint-plugin-promise": "^3.5.0",
-    "eslint-plugin-standard": "^3.0.1"
+    "eslint-plugin-standard": "^3.0.1",
+    "mkdirp": "^0.5.1",
+    "npm-run-all": "^4.0.2",
+    "rimraf": "^2.6.1"
   },
   "engines": {
     "node": ">= 7.0.0"
