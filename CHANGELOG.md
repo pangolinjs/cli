@@ -2,6 +2,18 @@
 
 
 
+## 1.6.0
+2017-10-03
+
+### Added
+- Test
+
+### Updated
+- Links
+- Readme and dependencies
+
+
+
 ## 1.5.3
 2017-08-23
 
