@@ -23,7 +23,7 @@
     "test:init": "mkdirp ./test && cd ./test && node ../bin/front-end-styleguide.js init",
     "test:install": "cd ./test && npm install",
     "test:dev": "cd ./test && node ../bin/front-end-styleguide.js build:dev",
-    "test:build": "cd ./test && node ../bin/front-end-styleguide.js build:dist"
+    "test:build": "cd ./test && node ../bin/front-end-styleguide.js build"
   },
   "main": "index.js",
   "bin": {
