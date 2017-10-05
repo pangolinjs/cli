@@ -1,3 +1,4 @@
+const fs = require('fs')
 const init = require('front-end-styleguide-init')
 const spawn = require('child_process').spawn
 
@@ -5,7 +6,7 @@ const log = require('./lib/log')
 
 const searchLocalInstallation = dir => {
   try {
-    require.resolve(`${dir}/node_modules/front-end-styleguide`)
+    fs.readFileSync(`${dir}/node_modules/front-end-styleguide/package.json`)
   } catch (error) {
     log.styleguideNotFound(dir)
     process.exit(1)

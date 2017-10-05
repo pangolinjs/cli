@@ -18,12 +18,12 @@
   "scripts": {
     "lint": "eslint **/*.js",
     "pretest": "npm run lint",
-    "test": "npm-run-all -s test:*",
+    "test": "npm-run-all -s test:clean test:init test:install test:build test:build:dev",
     "test:clean": "rimraf ./test",
     "test:init": "mkdirp ./test && cd ./test && node ../bin/front-end-styleguide.js init",
     "test:install": "cd ./test && npm install",
-    "test:dev": "cd ./test && node ../bin/front-end-styleguide.js build:dev",
-    "test:build": "cd ./test && node ../bin/front-end-styleguide.js build"
+    "test:build": "cd ./test && node ../bin/front-end-styleguide.js build",
+    "test:build:dev": "cd ./test && node ../bin/front-end-styleguide.js build:dev"
   },
   "main": "index.js",
   "bin": {
