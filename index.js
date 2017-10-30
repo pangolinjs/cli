@@ -1,7 +1,7 @@
 const fs = require('fs')
-const init = require('front-end-styleguide-init')
 const spawn = require('child_process').spawn
 
+const initialization = require('./lib/initialization')
 const log = require('./lib/log')
 
 const searchLocalInstallation = dir => {
@@ -29,7 +29,7 @@ module.exports = () => {
 
   switch (args[0]) {
     case 'init':
-      init(process.cwd())
+      initialization(process.cwd())
       break
     default:
       searchLocalInstallation(process.cwd())
