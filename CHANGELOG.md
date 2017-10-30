@@ -2,6 +2,15 @@
 
 
 
+## 1.8.0
+2017-10-30
+
+### Improved
+- Re-integrate init
+- Get templates form templates repository
+
+
+
 ## 1.7.1
 2017-10-08
 
