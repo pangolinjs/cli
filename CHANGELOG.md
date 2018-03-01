@@ -2,6 +2,17 @@
 
 
 
+## 1.8.1
+2018-03-01
+
+### Improved
+- Switched to path.join instead of template strings for path concatenation
+
+### Updated
+- Dependencies
+
+
+
 ## 1.8.0
 2017-10-30
 
