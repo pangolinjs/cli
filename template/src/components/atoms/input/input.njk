@@ -1,0 +1,10 @@
+{% macro input (label, id, name, type) %}
+<label for="{{ id }}">{{ label }}</label>
+<input
+  id="{{ id }}"
+  name="{{ name }}"
+  type="{{ type }}"
+>
+{% endmacro %}
+
+{{ input("Email", "email", "email", "email") }}

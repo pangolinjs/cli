@@ -1,0 +1,7 @@
+{% from "components/atoms/button/button.njk" import button as button %}
+{% from "components/atoms/input/input.njk" import input as input %}
+
+<form class="js-form">
+  {{ input("Email", "email", "email", "email") }}
+  {{ button("Submit") }}
+</form>

@@ -7,7 +7,7 @@ const log = require('./lib/log')
 
 const searchLocalInstallation = dir => {
   try {
-    fs.readFileSync(path.join(dir, 'node_modules/front-end-styleguide/package.json'))
+    fs.readFileSync(path.join(dir, 'node_modules/@pangolin/core/package.json'))
   } catch (error) {
     log.styleguideNotFound(dir)
     process.exit(1)
