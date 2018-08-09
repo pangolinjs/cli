@@ -2,6 +2,13 @@
 
 
 
+## 2.0.0-alpha.1
+2018-08-09
+
+Complete rewrite. Stay tuned for the updated docs.
+
+
+
 ## 1.8.1
 2018-03-01
 
