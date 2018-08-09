@@ -16,13 +16,14 @@
     "email": "info@fynn-becker.de"
   },
   "scripts": {
-    "lint": "eslint **/*.js",
-    "pretest": "npm run lint",
-    "test": "npm-run-all -s test:clean test:create test:build test:build:dev",
+    "lint": "run-s lint:*",
+    "lint:js": "eslint **/*.js",
+    "lint:css": "stylelint template/**/*.scss",
+    "test": "run-s test:**",
     "test:clean": "rimraf ./test",
     "test:create": "node bin/pangolin.js create test",
-    "test:build": "cd ./test && pangolin-core build",
-    "test:build:dev": "cd ./test && pangolin-core build:dev"
+    "test:build": "cd ./test && node node_modules/.bin/pangolin-core build",
+    "test:build:dev": "cd ./test && node node_modules/.bin/pangolin-core build --dev"
   },
   "bin": {
     "pangolin": "./bin/pangolin.js"
@@ -36,9 +37,11 @@
   },
   "devDependencies": {
     "@pangolin/eslint-config": "^1.0.0",
+    "@pangolin/stylelint-config": "^1.0.1",
     "eslint": "^5.3.0",
     "npm-run-all": "^4.0.2",
-    "rimraf": "^2.6.2"
+    "rimraf": "^2.6.2",
+    "stylelint": "^9.4.0"
   },
   "engines": {
     "node": ">= 10.0.0"
