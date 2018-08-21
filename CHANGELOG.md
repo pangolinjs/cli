@@ -2,6 +2,14 @@
 
 
 
+## 2.0.0-alpha.2
+2018-08-21
+
+### Updated
+- `assets` folder is called `public` now
+
+
+
 ## 2.0.0-alpha.1
 2018-08-09
 
