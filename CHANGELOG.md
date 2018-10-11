@@ -2,6 +2,18 @@
 
 
 
+## 2.0.0-alpha.3
+2018-10-11
+
+### Improved
+- Use cssnano in production only
+
+### Updated
+- Dependencies
+- Template with new Pangolin blocks
+
+
+
 ## 2.0.0-alpha.2
 2018-08-21
 
