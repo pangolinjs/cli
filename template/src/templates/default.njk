@@ -5,11 +5,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
 
-    <title>{{ page.name }} | {{ project.name }}</title>
+    <title>{{ page.name }} | Preview | {{ project.name }}</title>
 
     <link rel="shortcut icon" href="{% static 'assets/favicon.ico' %}">
+
+    {% block pangolin_head %}{% endblock %}
   </head>
   <body>
-    {% block body %}{% endblock %}
+    {% block pangolin_body %}{% endblock %}
   </body>
 </html>
