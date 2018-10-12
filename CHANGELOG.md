@@ -2,6 +2,14 @@
 
 
 
+## 2.0.0-alpha.4
+2018-10-12
+
+### Removed
+- AVA (leave the choice to the user)
+
+
+
 ## 2.0.0-alpha.3
 2018-10-11
 
