@@ -41,10 +41,10 @@
       }
     },
     "@babel/generator": {
-      "version": "7.1.2",
+      "version": "7.1.3",
       "dev": true,
       "requires": {
-        "@babel/types": "^7.1.2",
+        "@babel/types": "^7.1.3",
         "jsesc": "^2.5.1",
         "lodash": "^4.17.10",
         "source-map": "^0.5.0",
@@ -93,7 +93,7 @@
       }
     },
     "@babel/parser": {
-      "version": "7.1.2",
+      "version": "7.1.3",
       "dev": true
     },
     "@babel/template": {
@@ -106,15 +106,15 @@
       }
     },
     "@babel/traverse": {
-      "version": "7.1.0",
+      "version": "7.1.4",
       "dev": true,
       "requires": {
         "@babel/code-frame": "^7.0.0",
-        "@babel/generator": "^7.0.0",
+        "@babel/generator": "^7.1.3",
         "@babel/helper-function-name": "^7.1.0",
         "@babel/helper-split-export-declaration": "^7.0.0",
-        "@babel/parser": "^7.1.0",
-        "@babel/types": "^7.0.0",
+        "@babel/parser": "^7.1.3",
+        "@babel/types": "^7.1.3",
         "debug": "^3.1.0",
         "globals": "^11.1.0",
         "lodash": "^4.17.10"
@@ -130,7 +130,7 @@
       }
     },
     "@babel/types": {
-      "version": "7.1.2",
+      "version": "7.1.3",
       "dev": true,
       "requires": {
         "esutils": "^2.0.2",
@@ -190,10 +190,6 @@
         "json-schema-traverse": "^0.4.1",
         "uri-js": "^4.2.2"
       }
-    },
-    "ajv-keywords": {
-      "version": "3.2.0",
-      "dev": true
     },
     "ansi-escapes": {
       "version": "3.1.0"
@@ -271,15 +267,15 @@
       "dev": true
     },
     "autoprefixer": {
-      "version": "9.1.5",
+      "version": "9.2.0",
       "dev": true,
       "requires": {
-        "browserslist": "^4.1.0",
-        "caniuse-lite": "^1.0.30000884",
+        "browserslist": "^4.2.1",
+        "caniuse-lite": "^1.0.30000890",
         "normalize-range": "^0.1.2",
         "num2fraction": "^1.2.2",
-        "postcss": "^7.0.2",
-        "postcss-value-parser": "^3.2.3"
+        "postcss": "^7.0.5",
+        "postcss-value-parser": "^3.3.1"
       }
     },
     "bail": {
@@ -330,12 +326,12 @@
       }
     },
     "browserslist": {
-      "version": "4.2.0",
+      "version": "4.2.1",
       "dev": true,
       "requires": {
-        "caniuse-lite": "^1.0.30000889",
-        "electron-to-chromium": "^1.3.73",
-        "node-releases": "^1.0.0-alpha.12"
+        "caniuse-lite": "^1.0.30000890",
+        "electron-to-chromium": "^1.3.79",
+        "node-releases": "^1.0.0-alpha.14"
       }
     },
     "builtin-modules": {
@@ -392,7 +388,7 @@
       }
     },
     "caniuse-lite": {
-      "version": "1.0.30000890",
+      "version": "1.0.30000892",
       "dev": true
     },
     "ccount": {
@@ -720,7 +716,7 @@
       "dev": true
     },
     "electron-to-chromium": {
-      "version": "1.3.77",
+      "version": "1.3.79",
       "dev": true
     },
     "entities": {
@@ -758,7 +754,7 @@
       "version": "1.0.5"
     },
     "eslint": {
-      "version": "5.6.1",
+      "version": "5.7.0",
       "dev": true,
       "requires": {
         "@babel/code-frame": "^7.0.0",
@@ -792,12 +788,12 @@
         "path-is-inside": "^1.0.2",
         "pluralize": "^7.0.0",
         "progress": "^2.0.0",
-        "regexpp": "^2.0.0",
+        "regexpp": "^2.0.1",
         "require-uncached": "^1.0.3",
         "semver": "^5.5.1",
         "strip-ansi": "^4.0.0",
         "strip-json-comments": "^2.0.1",
-        "table": "^4.0.3",
+        "table": "^5.0.2",
         "text-table": "^0.2.0"
       },
       "dependencies": {
@@ -1991,7 +1987,7 @@
       }
     },
     "merge2": {
-      "version": "1.2.2",
+      "version": "1.2.3",
       "dev": true
     },
     "micromatch": {
@@ -2134,7 +2130,7 @@
       "dev": true
     },
     "node-releases": {
-      "version": "1.0.0-alpha.12",
+      "version": "1.0.0-alpha.14",
       "dev": true,
       "requires": {
         "semver": "^5.3.0"
@@ -2556,7 +2552,7 @@
       "dev": true
     },
     "postcss-value-parser": {
-      "version": "3.3.0",
+      "version": "3.3.1",
       "dev": true
     },
     "prelude-ls": {
@@ -3169,16 +3165,6 @@
         "pify": {
           "version": "4.0.0",
           "dev": true
-        },
-        "table": {
-          "version": "5.1.0",
-          "dev": true,
-          "requires": {
-            "ajv": "^6.5.3",
-            "lodash": "^4.17.10",
-            "slice-ansi": "1.0.0",
-            "string-width": "^2.1.1"
-          }
         }
       }
     },
@@ -3239,13 +3225,11 @@
       "dev": true
     },
     "table": {
-      "version": "4.0.3",
+      "version": "5.1.0",
       "dev": true,
       "requires": {
-        "ajv": "^6.0.1",
-        "ajv-keywords": "^3.0.0",
-        "chalk": "^2.1.0",
-        "lodash": "^4.17.4",
+        "ajv": "^6.5.3",
+        "lodash": "^4.17.10",
         "slice-ansi": "1.0.0",
         "string-width": "^2.1.1"
       }
