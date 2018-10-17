@@ -13,5 +13,7 @@ npm-debug.log*
 # Dependency directory
 node_modules
 
-# Test
-test
+# Generated content
+/.nyc_output
+/coverage
+/test/project
