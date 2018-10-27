@@ -16,14 +16,13 @@
     "email": "info@fynn-becker.de"
   },
   "scripts": {
-    "lint": "run-s lint:*",
     "lint:js": "eslint **/*.js",
     "lint:css": "stylelint template/**/*.scss",
     "test:unit": "nyc ava",
     "test:create": "node bin/pangolin.js create test/project",
-    "test:dev": "cd ./test/project && node node_modules/.bin/pangolin-core dev",
-    "test:build": "cd ./test/project && node node_modules/.bin/pangolin-core build",
-    "test:build:dev": "cd ./test/project && node node_modules/.bin/pangolin-core build --dev"
+    "test:dev": "cd test/project && node node_modules/@pangolin/core/bin/pangolin-core dev",
+    "test:build": "cd test/project && node node_modules/@pangolin/core/bin/pangolin-core build",
+    "test:build:dev": "cd test/project && node node_modules/@pangolin/core/bin/pangolin-core build --dev"
   },
   "bin": {
     "pangolin": "./bin/pangolin.js"
@@ -41,9 +40,7 @@
     "ava": "^1.0.0-rc.1",
     "eslint": "^5.3.0",
     "eslint-plugin-ava": "^5.1.1",
-    "npm-run-all": "^4.0.2",
     "nyc": "^13.1.0",
-    "rimraf": "^2.6.2",
     "stylelint": "^9.4.0"
   },
   "engines": {
