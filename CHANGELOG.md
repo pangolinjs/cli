@@ -2,6 +2,21 @@
 
 
 
+## 2.0.0-alpha.5
+2018-10-27
+
+### Added
+- Unit tests
+
+### Updated
+- Dependencies
+- Template for `pangolin-core` changes
+
+### Removed
+- Pre-configured tests in template
+
+
+
 ## 2.0.0-alpha.4
 2018-10-12
 
