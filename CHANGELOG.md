@@ -2,6 +2,13 @@
 
 
 
+## 2.0.0-alpha.6
+
+### Updated
+- Dependencies
+
+
+
 ## 2.0.0-alpha.5
 2018-10-27
 
