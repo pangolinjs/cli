@@ -2,6 +2,16 @@
 
 
 
+## 2.0.0-beta.1
+
+### Updated
+- Dependencies
+
+### Fixed
+- npm global install (#4)
+
+
+
 ## 2.0.0-alpha.6
 
 ### Updated
