@@ -1,5 +1,3 @@
-/* global FormData */
-
 import objectFromArray from '@/functions/object-from-array'
 
 const form = document.querySelector('.js-form')
