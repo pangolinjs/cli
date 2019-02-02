@@ -1,6 +1,6 @@
 {
   "name": "@pangolin/cli",
-  "version": "2.0.0-beta.1",
+  "version": "2.0.0-beta.2",
   "description": "Provides access to the global CLI interface for Pangolin",
   "author": {
     "name": "Fynn Becker",

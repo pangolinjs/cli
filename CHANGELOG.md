@@ -2,6 +2,16 @@
 
 
 
+## 2.0.0-beta.2
+
+### Improved
+- Template config file situation
+
+### Updated
+- Dependencies
+
+
+
 ## 2.0.0-beta.1
 
 ### Updated
