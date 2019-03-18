@@ -2,7 +2,20 @@
 
 
 
+## 2.0.0-beta.3
+2019-03-18
+
+### Updated
+- Dependencies
+- browserslist configuration
+
+### Fixed
+- favicon path
+
+
+
 ## 2.0.0-beta.2
+2019-02-02
 
 ### Improved
 - Template config file situation
@@ -13,6 +26,7 @@
 
 
 ## 2.0.0-beta.1
+2019-01-15
 
 ### Updated
 - Dependencies
@@ -23,6 +37,7 @@
 
 
 ## 2.0.0-alpha.6
+2018-11-28
 
 ### Updated
 - Dependencies

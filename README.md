@@ -11,11 +11,11 @@ This package provides a global CLI for [Pangolin Pattern Library framework](http
 ## Installation
 
 ```bash
-# Yarn
-yarn global add @pangolin/cli
-
 # npm
 npm install -g @pangolin/cli
+
+# Yarn
+yarn global add @pangolin/cli
 ```
 
 
