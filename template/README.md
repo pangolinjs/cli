@@ -6,11 +6,11 @@ Framework for componentized front end development with Nunjucks, Sass, and JavaS
 ## Install dependencies
 
 ```bash
-# Yarn
-yarn
-
 # npm
 npm install
+
+# Yarn
+yarn install
 ```
 
 ## Tasks
@@ -18,43 +18,45 @@ npm install
 ### Development
 
 ```bash
-yarn dev
-# or
+# npm
 npm run dev
+
+# Yarn
+yarn run dev
 ```
 
-### Testing
+### Linting
 
 ```bash
-# Linting
-yarn lint:css
-yarn lint:js
-# or
+# npm
 npm run lint:css
 npm run lint:js
 
-# Unit test
-yarn test:unit
-# or
-npm run test:unit
+# Yarn
+yarn run lint:css
+yarn run lint:js
 ```
 
 ### Build
 
-Generate production-ready files (output to `dist`).
+Generate production-ready files for CMS integration (output to `dist`).
 
 ```bash
-yarn build
-# or
+# npm
 npm run build
+
+# Yarn
+yarn run build
 ```
 
-Generate HTML for static file server (output to `dev`).
+Generate HTML for static file servers (output to `dev`).
 
 ```bash
-yarn build:dev
-# or
+# npm
 npm run build:dev
+
+# Yarn
+yarn build:dev
 ```
 
-Take a look at the [full documentation](https://pangolinjs.org).
+Take a look at the [full documentation for Pangolin](https://pangolinjs.org).
