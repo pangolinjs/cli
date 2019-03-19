@@ -16,6 +16,11 @@
     "url": "https://github.com/pangolinjs/cli/issues",
     "email": "post@fynn.be"
   },
+  "files": [
+    "bin",
+    "lib",
+    "template"
+  ],
   "scripts": {
     "lint:js": "eslint **/*.js",
     "lint:css": "stylelint template/**/*.scss",
