@@ -11,11 +11,7 @@ This package provides a global CLI for [Pangolin Pattern Library framework](http
 ## Installation
 
 ```bash
-# npm
 npm install -g @pangolin/cli
-
-# Yarn
-yarn global add @pangolin/cli
 ```
 
 
@@ -29,9 +25,14 @@ pangolin create project-name
 ## Contribute
 
 ```bash
-yarn test
-# or
-npm test
+# Run unit tests
+npm run test:unit
+
+# Run CLI tests
+npm run test:create
+npm run test:dev
+npm run test:build
+npm run test:build:dev
 ```
 
 
