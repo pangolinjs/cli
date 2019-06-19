@@ -8,14 +8,20 @@
 This package provides a global CLI for [Pangolin Pattern Library framework](https://pangolinjs.org).
 
 
-## Installation
+## Create a new project with `npx`
+
+```bash
+npx -p @pangolin/cli pangolin create project-name
+```
+
+
+## Global installation (optional)
 
 ```bash
 npm install -g @pangolin/cli
 ```
 
-
-## Create a new project
+and then
 
 ```bash
 pangolin create project-name
