@@ -42,14 +42,14 @@
     "inquirer": "^6.3.1"
   },
   "devDependencies": {
-    "@pangolin/eslint-config": "^2.2.0",
-    "@pangolin/stylelint-config": "^1.4.0",
-    "ava": "^1.4.1",
+    "@pangolin/eslint-config": "^2.2.1",
+    "@pangolin/stylelint-config": "^1.4.2",
+    "ava": "^2.1.0",
     "eslint": "^5.16.0",
-    "eslint-plugin-ava": "^6.0.0",
+    "eslint-plugin-ava": "^7.1.0",
     "nyc": "^14.1.1",
     "standard-version": "^6.0.1",
-    "stylelint": "^10.0.1"
+    "stylelint": "^10.1.0"
   },
   "engines": {
     "node": ">= 10.0.0"
