@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [2.0.0-beta.6](https://github.com/pangolinjs/cli/compare/v2.0.0-beta.5...v2.0.0-beta.6) (2019-08-12)
+
+
+### Bug Fixes
+
+* Switch to CSS Tools normalize (Closes [#7](https://github.com/pangolinjs/cli/issues/7)) ([605f3e6](https://github.com/pangolinjs/cli/commit/605f3e6))
+
 ## [2.0.0-beta.5](https://github.com/pangolinjs/cli/compare/v2.0.0-beta.4...v2.0.0-beta.5) (2019-07-11)
 
 
