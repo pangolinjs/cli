@@ -1,7 +1,6 @@
-# Pangolin
+# Pangolin.js
 
 Framework for componentized front end development with Nunjucks, Sass, and JavaScript.
-
 
 ## Install dependencies
 
@@ -38,4 +37,4 @@ Generate HTML for static file servers (output to `dev`).
 npm run build:dev
 ```
 
-Take a look at the [full documentation for Pangolin](https://pangolinjs.org).
+Take a look at the [full documentation for Pangolin.js](https://pangolinjs.org).
