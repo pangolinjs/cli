@@ -1,6 +1,6 @@
 {
   "name": "@pangolinjs/cli",
-  "version": "2.0.0-beta.6",
+  "version": "2.0.0-rc.0",
   "description": "Provides access to the global CLI interface for Pangolin.js",
   "license": "MPL-2.0",
   "author": {

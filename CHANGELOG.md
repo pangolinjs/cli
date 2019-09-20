@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [2.0.0-rc.0](https://github.com/pangolinjs/cli/compare/v2.0.0-beta.6...v2.0.0-rc.0) (2019-09-20)
+
+
+### Features
+
+* Rename to `@pangolinjs/cli` ([a7ba791](https://github.com/pangolinjs/cli/commit/a7ba791))
+
 ## [2.0.0-beta.6](https://github.com/pangolinjs/cli/compare/v2.0.0-beta.5...v2.0.0-beta.6) (2019-08-12)
 
 
