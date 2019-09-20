@@ -37,19 +37,19 @@
   "preferGlobal": true,
   "dependencies": {
     "chalk": "^2.4.2",
-    "commander": "^3.0.0",
+    "commander": "^3.0.1",
     "fs-extra": "^8.1.0",
-    "inquirer": "^6.5.2"
+    "inquirer": "^7.0.0"
   },
   "devDependencies": {
-    "@pangolin/eslint-config": "^2.3.0",
+    "@pangolin/eslint-config": "^3.0.0",
     "@pangolin/stylelint-config": "^1.5.0",
-    "ava": "^2.3.0",
-    "eslint": "^6.2.2",
+    "ava": "^2.4.0",
+    "eslint": "^6.4.0",
     "eslint-plugin-ava": "^8.0.0",
     "nyc": "^14.1.1",
     "standard-version": "^7.0.0",
-    "stylelint": "^10.1.0"
+    "stylelint": "^11.0.0"
   },
   "engines": {
     "node": ">= 10.0.0"
