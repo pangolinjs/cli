@@ -1,6 +1,7 @@
 # <img alt="" src="https://cdn.jsdelivr.net/gh/pangolinjs/brand/icon/icon.svg" width="24"> Pangolin.js CLI
 
 [![npm version][npm-image]][npm-url]
+[![Dependencies][dependencies-image]][dependencies-url]
 [![JavaScript Standard Style][standard-image]][standard-url]
 
 This package provides a global CLI for the [Pangolin.js Pattern Library framework](https://pangolinjs.org).
@@ -8,16 +9,16 @@ This package provides a global CLI for the [Pangolin.js Pattern Library framewor
 ## Quick start project creation with `npx`
 
 ```bash
-npx -p @pangolin/cli pangolin create project-name
+npx -p @pangolinjs/cli pangolin create project-name
 ```
 
 ## Alternative global installation
 
 ```bash
-# Install Pangolin CLI as global package
-npm install -g @pangolin/cli
+# Install Pangolin.js CLI as global package
+npm install -g @pangolinjs/cli
 
-# Create new Pangolin project
+# Create new Pangolin.js project
 pangolin create project-name
 ```
 
@@ -34,8 +35,11 @@ npm run test:build
 npm run test:build:dev
 ```
 
-[npm-image]: https://img.shields.io/npm/v/@pangolin/cli.svg?style=flat-square&logo=npm
-[npm-url]: https://www.npmjs.com/package/@pangolin/cli
+[npm-image]: https://img.shields.io/npm/v/@pangolinjs/cli.svg?style=flat-square
+[npm-url]: https://www.npmjs.com/package/@pangolinjs/cli
+
+[dependencies-image]: https://img.shields.io/david/pangolinjs/cli.svg?style=flat-square
+[dependencies-url]: https://www.npmjs.com/package/@pangolinjs/cli?activeTab=dependencies
 
 [standard-image]: https://img.shields.io/badge/Code_Style-Standard-brightgreen.svg?style=flat-square&logo=javascript&logoColor=white
 [standard-url]: https://standardjs.com

@@ -7,7 +7,7 @@ if (form) {
     event.preventDefault()
     const formData = new FormData(event.target)
 
-    for (let entry of formData.entries()) {
+    for (const entry of formData.entries()) {
       console.log(objectFromArray(entry))
     }
   })

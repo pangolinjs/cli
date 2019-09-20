@@ -9,7 +9,7 @@ program
 
 program
   .command('create <name>')
-  .description('Create a new Pangolin project')
+  .description('Create a new Pangolin.js project')
   .action(name => {
     require('../lib/commands/create')(name)
   })
