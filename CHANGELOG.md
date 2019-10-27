@@ -2,6 +2,14 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [2.0.0-rc.1](https://github.com/pangolinjs/cli/compare/v2.0.0-rc.0...v2.0.0-rc.1) (2019-10-27)
+
+
+### Features
+
+* Install peer dependencies `eslint` and `stylelint` ([9ed8268](https://github.com/pangolinjs/cli/commit/9ed8268))
+* Switch from `autoprefixer` to `postcss-preset-env` (Close [#12](https://github.com/pangolinjs/cli/issues/12)) ([32330db](https://github.com/pangolinjs/cli/commit/32330db))
+
 ## [2.0.0-rc.0](https://github.com/pangolinjs/cli/compare/v2.0.0-beta.6...v2.0.0-rc.0) (2019-09-20)
 
 
