@@ -1,6 +1,6 @@
 # Pangolin.js
 
-Framework for componentized front end development with Nunjucks, Sass, and JavaScript.
+Framework for design system development with Nunjucks, Sass, and JavaScript.
 
 ## Install dependencies
 
