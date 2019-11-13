@@ -39,19 +39,19 @@
   },
   "preferGlobal": true,
   "dependencies": {
-    "chalk": "^3.0.0-beta.2",
-    "commander": "^3.0.2",
+    "chalk": "^3.0.0",
+    "commander": "^4.0.1",
     "fs-extra": "^8.1.0",
     "inquirer": "^7.0.0"
   },
   "devDependencies": {
-    "@pangolinjs/eslint-config": "^3.1.0",
-    "@pangolinjs/stylelint-config": "^1.6.0",
+    "@pangolinjs/eslint-config": "^3.1.1",
+    "@pangolinjs/stylelint-config": "^1.7.0",
     "ava": "^2.4.0",
     "eslint": "^6.6.0",
     "eslint-plugin-ava": "^9.0.0",
     "nyc": "^14.1.1",
-    "standard-version": "^7.0.0",
+    "standard-version": "^7.0.1",
     "stylelint": "^11.1.1"
   },
   "engines": {

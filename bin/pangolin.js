@@ -2,10 +2,9 @@
 
 const chalk = require('chalk')
 const program = require('commander')
-const version = require('../package.json').version
 
 program
-  .version(version)
+  .version(require('../package.json').version)
 
 program
   .command('create <name>')
