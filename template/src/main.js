@@ -1,1 +1,1 @@
-import '@/components/molecules/form/form'
+import './components/molecules/form/form'

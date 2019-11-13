@@ -1,4 +1,4 @@
-import objectFromArray from '@/functions/object-from-array'
+import objectFromArray from '../../../functions/object-from-array'
 
 const form = document.querySelector('.js-form')
 
