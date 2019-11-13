@@ -1,12 +1,19 @@
 # Supported browsers
 # https://github.com/browserslist/browserslist
+# ==============================================================================
 
 > 0.2%
 last 2 versions
 not dead
 
+
+# "Modern" browsers (support ES2015+)
+# https://philipwalton.com/articles/deploying-es2015-code-in-production-today/
+# ==========================================================
+
 [modern]
-Chrome >= 58 and > 0.2%
-Edge >= 15 and > 0.2%
-Firefox >= 53 and > 0.2%
-iOS >= 10.1 and > 0.2%
+Chrome >= 60
+Edge >= 15
+Firefox >= 54
+iOS >= 10.3
+Safari >= 10.1
