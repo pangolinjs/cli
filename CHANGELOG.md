@@ -2,6 +2,19 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [2.0.0-rc.2](https://github.com/pangolinjs/cli/compare/v2.0.0-rc.1...v2.0.0-rc.2) (2019-11-13)
+
+
+### Features
+
+* **template:** Remove VSCode specific `jsconfig.json` ([ebe9a27](https://github.com/pangolinjs/cli/commit/ebe9a27dd6a028166ea3935012bb5a41e909b164))
+
+
+### Bug Fixes
+
+* **template:** Remove old markdown doc (not implemented any longer) ([0088dda](https://github.com/pangolinjs/cli/commit/0088dda73e639238f392ab23c01bb8a0bbbe0f65))
+* **template:** Update modern browsers ([c939cc0](https://github.com/pangolinjs/cli/commit/c939cc02d322ed4cf9ed3f9b20d960204a4cc2e7))
+
 ## [2.0.0-rc.1](https://github.com/pangolinjs/cli/compare/v2.0.0-rc.0...v2.0.0-rc.1) (2019-10-27)
 
 
