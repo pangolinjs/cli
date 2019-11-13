@@ -4,7 +4,7 @@
 [![Dependencies][dependencies-image]][dependencies-url]
 [![JavaScript Standard Style][standard-image]][standard-url]
 
-This package provides a global CLI for the [Pangolin.js Pattern Library framework](https://pangolinjs.org).
+This package provides a global CLI for the [Pangolin.js design system framework](https://pangolinjs.org).
 
 ## Quick start project creation with `npx`
 
