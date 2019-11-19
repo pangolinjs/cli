@@ -1,0 +1,3 @@
+// Use “normal” CSS imports instead of the builtin Sass concatenation thing
+// if you want to take advantage of webpack’s code splitting.
+@import url("~@csstools/normalize.css");
