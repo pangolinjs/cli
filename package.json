@@ -37,7 +37,6 @@
   "bin": {
     "pangolin": "./bin/pangolin.js"
   },
-  "preferGlobal": true,
   "dependencies": {
     "commander": "^4.0.1",
     "inquirer": "^7.0.1",
