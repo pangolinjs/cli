@@ -2,6 +2,14 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [2.0.0](https://github.com/pangolinjs/cli/compare/v2.0.0-rc.2...v2.0.0) (2020-01-03)
+
+
+### Features
+
+* Enable linter caches (Close [#15](https://github.com/pangolinjs/cli/issues/15), close [#16](https://github.com/pangolinjs/cli/issues/16)) ([39e3cfa](https://github.com/pangolinjs/cli/commit/39e3cfaf51a6c8ea9dedf31d8081db44e801c50f))
+* Switch to Sass Modules (Close [#14](https://github.com/pangolinjs/cli/issues/14) and fix [#13](https://github.com/pangolinjs/cli/issues/13)) ([dbccf6a](https://github.com/pangolinjs/cli/commit/dbccf6a98da84588ff62e529ce6874e62ecd2439))
+
 ## [2.0.0-rc.2](https://github.com/pangolinjs/cli/compare/v2.0.0-rc.1...v2.0.0-rc.2) (2019-11-13)
 
 

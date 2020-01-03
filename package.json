@@ -1,6 +1,6 @@
 {
   "name": "@pangolinjs/cli",
-  "version": "2.0.0-rc.2",
+  "version": "2.0.0",
   "description": "CLI for creating new Pangolin.js projects.",
   "license": "MPL-2.0",
   "author": {
