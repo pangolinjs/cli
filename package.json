@@ -39,8 +39,8 @@
   },
   "dependencies": {
     "commander": "^4.0.1",
-    "inquirer": "^7.0.1",
-    "kleur": "^3.0.3"
+    "kleur": "^3.0.3",
+    "prompts": "^2.3.0"
   },
   "devDependencies": {
     "@pangolinjs/eslint-config": "^3.1.1",
