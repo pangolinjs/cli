@@ -39,10 +39,10 @@
   },
   "preferGlobal": true,
   "dependencies": {
-    "chalk": "^3.0.0",
     "commander": "^4.0.1",
     "fs-extra": "^8.1.0",
-    "inquirer": "^7.0.1"
+    "inquirer": "^7.0.1",
+    "kleur": "^3.0.3"
   },
   "devDependencies": {
     "@pangolinjs/eslint-config": "^3.1.1",

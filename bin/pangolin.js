@@ -1,6 +1,6 @@
 #!/usr/bin/env node
 
-const chalk = require('chalk')
+const { red, yellow } = require('kleur')
 const program = require('commander')
 
 program
@@ -17,7 +17,7 @@ program
   .arguments('*')
   .action(cmd => {
     program.outputHelp()
-    console.log(chalk`  Unknown command {red ${cmd}}.`)
+    console.log(red(`\nUnknown command <${yellow(cmd.args)}>.`))
   })
 
 program.parse(process.argv)
