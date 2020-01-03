@@ -1,39 +1,39 @@
-name: Lint and Test
+name: Continuous Integration
 on: [push]
 
 jobs:
 
   lint:
-    name: Linting
-    runs-on: ubuntu-18.04
+    name: Lint
+    runs-on: ubuntu-latest
     steps:
       - name: Check out repository
-        uses: actions/checkout@v1
+        uses: actions/checkout@master
       - name: Set up Node.js
-        uses: actions/setup-node@v1
+        uses: actions/setup-node@master
         with:
-          version: 12
+          node-version: 13
       - name: Install dependencies
         run: npm ci
       - name: Lint CSS
         run: npm run lint:css
-      - name: Lint JavaScript
+      - name: Lint JS
         run: npm run lint:js
 
   test:
-    name: Unit testing (Node.js ${{ matrix.node }} on ${{ matrix.os }})
+    name: Test (Node.js ${{ matrix.node-version }} on ${{ matrix.os }})
     runs-on: ${{ matrix.os }}
     strategy:
       matrix:
-        node: [10, 12]
-        os: [ubuntu-18.04, macOS-10.14, windows-2019]
+        node-version: [12, 13]
+        os: [ubuntu-latest, macOS-latest, windows-latest]
     steps:
       - name: Check out repository
-        uses: actions/checkout@v1
+        uses: actions/checkout@master
       - name: Set up Node.js
-        uses: actions/setup-node@v1
+        uses: actions/setup-node@master
         with:
-          version: ${{ matrix.node }}
+          node-version: ${{ matrix.node-version }}
       - name: Install dependencies
         run: npm ci
       - name: Run unit tests
