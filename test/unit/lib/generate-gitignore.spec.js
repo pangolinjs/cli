@@ -1,5 +1,5 @@
-import generateGitignore from '../../../lib/utils/generate-gitignore'
-import test from 'ava'
+const generateGitignore = require('../../../lib/utils/generate-gitignore')
+const test = require('ava')
 
 test('generates correct .gitignore', t => {
   const result = generateGitignore()

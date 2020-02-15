@@ -1,5 +1,5 @@
-import generatePangolinConfig from '../../../lib/utils/generate-pangolin-config'
-import test from 'ava'
+const generatePangolinConfig = require('../../../lib/utils/generate-pangolin-config')
+const test = require('ava')
 
 test('generates correct Pangolin config', t => {
   const result = generatePangolinConfig('test')
