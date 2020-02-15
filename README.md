@@ -9,7 +9,7 @@ This package provides a global CLI for the [Pangolin.js design system framework]
 ## Quick start project creation with `npx`
 
 ```bash
-npx -p @pangolinjs/cli pangolin create project-name
+npx @pangolinjs/cli create project-name
 ```
 
 ## Alternative global installation
