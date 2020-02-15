@@ -25,8 +25,8 @@
     "template"
   ],
   "scripts": {
-    "lint:js": "eslint --ignore-path .gitignore '**/*.js'",
-    "lint:css": "stylelint --ignore-path .gitignore 'template/**/*.scss'",
+    "lint:js": "eslint --ignore-path .gitignore --cache '**/*.js'",
+    "lint:css": "stylelint --ignore-path .gitignore --cache 'template/**/*.scss'",
     "test:unit": "nyc ava",
     "test:create": "node bin/pangolin.js create test/project",
     "test:dev": "cd test/project && node node_modules/@pangolinjs/core/bin/pangolin-core dev",
