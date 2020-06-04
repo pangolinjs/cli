@@ -2,6 +2,14 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [2.2.0](https://github.com/pangolinjs/cli/compare/v2.1.0...v2.2.0) (2020-06-04)
+
+
+### Features
+
+* Remove cssnano from PostCSS config ([980b660](https://github.com/pangolinjs/cli/commit/980b660baaf4bb489836ec99588e3b6afc7ac3ed))
+* Switch to Hippocratic License ([0a22cf9](https://github.com/pangolinjs/cli/commit/0a22cf997ce23b37d3237710bc5f69c23ede0346))
+
 ## [2.1.0](https://github.com/pangolinjs/cli/compare/v2.0.1...v2.1.0) (2020-05-20)
 
 
