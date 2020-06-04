@@ -1,9 +1,5 @@
 # <img alt="" src="https://cdn.jsdelivr.net/gh/pangolinjs/brand/icon/icon.svg" width="24"> Pangolin.js CLI
 
-[![npm version][npm-image]][npm-url]
-[![Dependencies][dependencies-image]][dependencies-url]
-[![JavaScript Standard Style][standard-image]][standard-url]
-
 This package provides a global CLI for the [Pangolin.js design system framework](https://pangolinjs.org).
 
 ## Quick start project creation with `npx`
@@ -35,11 +31,6 @@ npm run test:build
 npm run test:build:dev
 ```
 
-[npm-image]: https://img.shields.io/npm/v/@pangolinjs/cli.svg?style=flat-square
-[npm-url]: https://www.npmjs.com/package/@pangolinjs/cli
+## License
 
-[dependencies-image]: https://img.shields.io/david/pangolinjs/cli.svg?style=flat-square
-[dependencies-url]: https://www.npmjs.com/package/@pangolinjs/cli?activeTab=dependencies
-
-[standard-image]: https://img.shields.io/badge/Code_Style-Standard-brightgreen.svg?style=flat-square&logo=javascript&logoColor=white
-[standard-url]: https://standardjs.com
+[Hippocratic License 2.1](https://firstdonoharm.dev)

@@ -2,7 +2,7 @@
   "name": "@pangolinjs/cli",
   "version": "2.1.0",
   "description": "CLI for creating new Pangolin.js projects.",
-  "license": "MPL-2.0",
+  "license": "Hippocratic-2.1",
   "author": {
     "name": "Fynn Becker",
     "email": "post@fynn.be"
