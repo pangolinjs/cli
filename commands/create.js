@@ -3,18 +3,18 @@ const fs = require('fs')
 const path = require('path')
 const prompts = require('prompts')
 
-const copyDir = require('../utils/copy-dir')
-const generateGitignore = require('../utils/generate-gitignore')
-const generatePackage = require('../utils/generate-package')
-const generatePangolinConfig = require('../utils/generate-pangolin-config')
-const installDependencies = require('../utils/install-dependencies')
-const version = require('../../package.json').version
+const copyDir = require('../lib/copy-dir.js')
+const generateGitignore = require('../lib/generate-gitignore.js')
+const generatePackage = require('../lib/generate-package.js')
+const generatePangolinConfig = require('../lib/generate-pangolin-config.js')
+const installDependencies = require('../lib/install-dependencies.js')
+const version = require('../package.json').version
 
 /**
  * Create a new project
  * @param {string} name Project name
  */
-async function create (name) {
+module.exports = async function create (name) {
   const context = process.cwd()
   const dir = path.join(context, name)
 
@@ -40,13 +40,16 @@ async function create (name) {
   }
 
   // Write package.json
-  const packageName = path.basename(name) === '.'
+  const defaultPackageName = path.basename(name) === '.'
     ? path.basename(context)
     : path.basename(name)
-  const packageData = await generatePackage(packageName)
+
+  const packageData = await generatePackage({ name: defaultPackageName })
+
   if (!packageData.license) {
     return
   }
+
   const packagePath = path.join(dir, 'package.json')
   fs.writeFileSync(packagePath, JSON.stringify(packageData, null, 2))
 
@@ -56,16 +59,14 @@ async function create (name) {
   fs.writeFileSync(gitignorePath, gitignoreData)
 
   // Write Pangolin.js config
-  const pangolinConfigData = generatePangolinConfig(packageData.name)
+  const pangolinConfigData = generatePangolinConfig({ name: packageData.name })
   const pangolinConfigPath = path.join(dir, 'pangolin.config.js')
   fs.writeFileSync(pangolinConfigPath, pangolinConfigData)
 
   // Copy template files
-  const templatePath = path.join(__dirname, '../../template')
+  const templatePath = path.join(__dirname, '../template')
   copyDir(templatePath, dir)
 
   // Install dependencies
-  await installDependencies(dir)
+  installDependencies(dir)
 }
-
-module.exports = create

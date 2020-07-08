@@ -1,4 +1,4 @@
-const generateGitignore = require('../../../lib/utils/generate-gitignore')
+const generateGitignore = require('../../../lib/generate-gitignore')
 const test = require('ava')
 
 test('generates correct .gitignore', t => {

@@ -10,7 +10,7 @@ program
   .command('create <name>')
   .description('Create a new Pangolin.js project')
   .action(name => {
-    require('../lib/commands/create')(name)
+    require('../commands/create')(name)
   })
 
 program
