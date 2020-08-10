@@ -1,4 +1,4 @@
-# <img alt="" src="https://cdn.jsdelivr.net/gh/pangolinjs/brand/icon/icon.svg" width="24"> Pangolin.js CLI
+# <img alt="" src="https://cdn.jsdelivr.net/gh/pangolinjs/brand@main/icon/icon.svg" width="24"> Pangolin.js CLI
 
 This package provides a global CLI for the [Pangolin.js design system framework](https://pangolinjs.org).
 
