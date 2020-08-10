@@ -38,24 +38,24 @@
     "pangolin": "./bin/pangolin.js"
   },
   "dependencies": {
-    "commander": "^6.0.0-0",
-    "kleur": "^4.0.2",
+    "commander": "^6.0.0",
+    "kleur": "^4.0.3",
     "prompts": "^2.3.2"
   },
   "devDependencies": {
-    "@pangolinjs/eslint-config": "^4.0.0",
-    "@pangolinjs/stylelint-config": "^2.0.1",
-    "ava": "^3.10.1",
+    "@pangolinjs/eslint-config": "^4.0.1",
+    "@pangolinjs/stylelint-config": "^2.0.2",
+    "ava": "^3.11.1",
     "babel-eslint": "^10.1.0",
-    "eslint": "^7.4.0",
+    "eslint": "^7.6.0",
     "eslint-config-standard": "^14.1.1",
-    "eslint-plugin-ava": "^10.4.0",
+    "eslint-plugin-ava": "^10.5.0",
     "eslint-plugin-import": "^2.22.0",
     "eslint-plugin-node": "^11.1.0",
     "eslint-plugin-promise": "^4.2.1",
     "eslint-plugin-standard": "^4.0.1",
     "nyc": "^15.1.0",
-    "standard-version": "^8.0.0",
+    "standard-version": "^8.0.2",
     "stylelint": "^13.6.1",
     "stylelint-order": "^4.1.0",
     "stylelint-scss": "^3.18.0"
