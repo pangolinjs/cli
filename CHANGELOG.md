@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [2.2.3](https://github.com/pangolinjs/cli/compare/v2.2.2...v2.2.3) (2020-08-24)
+
+
+### Bug Fixes
+
+* Include commands in package (Close [#22](https://github.com/pangolinjs/cli/issues/22)) ([b4602f9](https://github.com/pangolinjs/cli/commit/b4602f96e360d9fb4406aa743e32f79e1af99745))
+
 ### [2.2.2](https://github.com/pangolinjs/cli/compare/v2.2.1...v2.2.2) (2020-08-24)
 
 ### [2.2.1](https://github.com/pangolinjs/cli/compare/v2.2.0...v2.2.1) (2020-07-08)
