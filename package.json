@@ -29,10 +29,9 @@
     "lint:js": "eslint --ignore-path .gitignore '**/*.js'",
     "lint:css": "stylelint --ignore-path .gitignore 'template/**/*.scss'",
     "test:unit": "nyc ava",
-    "test:create": "node bin/pangolin.js create test/project",
+    "test:create": "rm --recursive test/project && node bin/pangolin.js create test/project",
     "test:dev": "cd test/project && npm run dev",
     "test:build": "cd test/project && npm run build",
-    "test:build:dev": "cd test/project && npm run build:dev",
     "release": "standard-version"
   },
   "bin": {
@@ -61,6 +60,6 @@
     "stylelint-scss": "^3.18.0"
   },
   "engines": {
-    "node": ">= 10.0.0"
+    "node": ">= 12"
   }
 }

@@ -1,9 +1,9 @@
-// Vendor
-@use "vendor";
-
 // Setup
-@use "setup/variables";
-@use "setup/scaffolding";
+@use "css/scaffolding.scss";
+@use "css/typography.scss";
 
 // Atoms
-@use "components/atoms/button/button"
+@use "components/2-atoms/button/button.scss";
+
+// Molecules
+@use "components/3-molecules/teaser/teaser.scss"

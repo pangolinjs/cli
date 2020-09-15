@@ -2,6 +2,10 @@
 
 Framework for design system development with Nunjucks, Sass, and JavaScript.
 
+## Requirements
+
+* [Node.js 14+](https://nodejs.org)
+
 ## Install dependencies
 
 ```bash
@@ -25,16 +29,10 @@ npm run lint:js
 
 ### Build
 
-Generate production-ready files for CMS integration (output to `dist`).
+Generate production-ready files for CMS integration (output to `dist`) and static design system export (output to `static`).
 
 ```bash
 npm run build
-```
-
-Generate HTML for static file servers (output to `dev`).
-
-```bash
-npm run build:dev
 ```
 
 Take a look at the [full documentation for Pangolin.js](https://pangolinjs.org).

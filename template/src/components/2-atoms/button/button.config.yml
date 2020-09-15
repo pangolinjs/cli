@@ -1,0 +1,13 @@
+context:
+  size: medium
+  text: Default / Medium Button
+
+variants:
+  - name: small
+    context:
+      size: small
+      text: Small Button
+  - name: large
+    context:
+      size: large
+      text: Large Button

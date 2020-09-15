@@ -1,19 +1,4 @@
-# OS specific stuff
-Thumbs.db
-Desktop.ini
-.DS_Store
-._*
-*~
-
-# Logs
-logs
-*.log
-npm-debug.log*
-
-# Dependency directory
 node_modules
-
-# Generated content
 /.nyc_output
 /coverage
 /test/project

@@ -6,7 +6,6 @@ const prompts = require('prompts')
 const copyDir = require('../lib/copy-dir.js')
 const generateGitignore = require('../lib/generate-gitignore.js')
 const generatePackage = require('../lib/generate-package.js')
-const generatePangolinConfig = require('../lib/generate-pangolin-config.js')
 const installDependencies = require('../lib/install-dependencies.js')
 const version = require('../package.json').version
 
@@ -57,11 +56,6 @@ module.exports = async function create (name) {
   const gitignoreData = generateGitignore()
   const gitignorePath = path.join(dir, '.gitignore')
   fs.writeFileSync(gitignorePath, gitignoreData)
-
-  // Write Pangolin.js config
-  const pangolinConfigData = generatePangolinConfig({ name: packageData.name })
-  const pangolinConfigPath = path.join(dir, 'pangolin.config.js')
-  fs.writeFileSync(pangolinConfigPath, pangolinConfigData)
 
   // Copy template files
   const templatePath = path.join(__dirname, '../template')
