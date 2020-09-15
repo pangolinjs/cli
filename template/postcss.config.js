@@ -1,6 +1,6 @@
 module.exports = {
   plugins: {
-    'postcss-preset-env': {
+    '@pangolinjs/postcss-preset-env': {
       stage: 3
     }
   }
