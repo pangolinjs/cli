@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [2.2.4](https://github.com/pangolinjs/cli/compare/v2.2.3...v2.2.4) (2020-09-15)
+
+
+### Bug Fixes
+
+* Use updated project dependencies ([6133162](https://github.com/pangolinjs/cli/commit/613316232c4b35648c69cde1f14f3d63c648d7a1))
+
 ### [2.2.3](https://github.com/pangolinjs/cli/compare/v2.2.2...v2.2.3) (2020-08-24)
 
 
