@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [2.3.0-beta.0](https://github.com/pangolinjs/cli/compare/v2.2.4...v2.3.0-beta.0) (2020-09-15)
+
+
+### Features
+
+* Set up v6 demo project ([491447d](https://github.com/pangolinjs/cli/commit/491447d16a43209d7e2a7af56a9a75ddc58706d3))
+
 ### [2.2.4](https://github.com/pangolinjs/cli/compare/v2.2.3...v2.2.4) (2020-09-15)
 
 
