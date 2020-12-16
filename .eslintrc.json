@@ -6,5 +6,8 @@
   ],
   "plugins": [
     "ava"
-  ]
+  ],
+  "rules": {
+    "no-console": "off"
+  }
 }
