@@ -4,7 +4,7 @@ Framework for design system development with Nunjucks, Sass, and JavaScript.
 
 ## Requirements
 
-* [Node.js 14+](https://nodejs.org)
+* [Node.js 15+](https://nodejs.org)
 
 ## Install dependencies
 
