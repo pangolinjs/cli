@@ -2,6 +2,22 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [2.3.0-rc.0](https://github.com/pangolinjs/cli/compare/v2.3.0-beta.0...v2.3.0-rc.0) (2021-01-14)
+
+
+### Features
+
+* Add "docs" command ([6b23aab](https://github.com/pangolinjs/cli/commit/6b23aabe51f0a2b45a812ef1940651b5286a4851))
+* Add public folder to template ([65575a9](https://github.com/pangolinjs/cli/commit/65575a92e094011b64fc464fbf8803758ee297b2))
+* Pull components categories to the top sidebar level ([6da5a49](https://github.com/pangolinjs/cli/commit/6da5a49601747ca599af41c0028f9f3c9ca00a27))
+
+
+### Bug Fixes
+
+* Add missing @babel/core peer dependency ([56cadba](https://github.com/pangolinjs/cli/commit/56cadba7286b852ac43d8298d23f38c3565b58f8))
+* Don’t install deprecated eslint-plugin-standard ([8271c33](https://github.com/pangolinjs/cli/commit/8271c3380af82156a42b76fd0913b58f35e3955f))
+* Pangolin 6 is only compatible with Node 15+ ([b5d548f](https://github.com/pangolinjs/cli/commit/b5d548f5534912ca6e57e5dda59dbc0c1a676c32))
+
 ## [2.3.0-beta.0](https://github.com/pangolinjs/cli/compare/v2.2.4...v2.3.0-beta.0) (2020-09-15)
 
 
