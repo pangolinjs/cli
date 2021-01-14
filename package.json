@@ -32,6 +32,7 @@
     "test:create": "rm --recursive test/project && node bin/pangolin.js create test/project",
     "test:dev": "cd test/project && npm run dev",
     "test:build": "cd test/project && npm run build",
+    "test:docs": "cd test/project && npm run docs",
     "release": "standard-version"
   },
   "bin": {

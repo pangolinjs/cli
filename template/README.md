@@ -29,10 +29,16 @@ npm run lint:js
 
 ### Build
 
-Generate production-ready files for CMS integration (output to `dist`) and static design system export (output to `static`).
+Generate production-ready files for CMS integration (output to `dist`):
 
 ```bash
 npm run build
+```
+
+Export design system for static file servers (output to `static`):
+
+```bash
+npm run docs
 ```
 
 Take a look at the [full documentation for Pangolin.js](https://pangolinjs.org).
