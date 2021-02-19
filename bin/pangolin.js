@@ -1,23 +1,50 @@
 #!/usr/bin/env node
 
 const { red, yellow } = require('kleur')
-const program = require('commander')
+const { version } = require('../package.json')
 
-program
-  .version(require('../package.json').version)
+const command = process.argv[2]
 
-program
-  .command('create <name>')
-  .description('Create a new Pangolin.js project')
-  .action(name => {
-    require('../commands/create')(name)
-  })
+function outputHeader () {
+  console.log(`${yellow('Pangolin.js CLI')} v${version}`)
+}
 
-program
-  .arguments('*')
-  .action(cmd => {
-    program.outputHelp()
-    console.log(red(`\nUnknown command <${yellow(cmd.args)}>.`))
-  })
+/**
+ * Handle create command.
+ * @param {string} name Name for project folder
+ */
+function handleCreate (name) {
+  if (!name) {
+    outputHeader()
 
-program.parse(process.argv)
+    console.log('\nPlease provide a name:')
+    console.log('  - create <name>')
+
+    return
+  }
+
+  require('../commands/create')(name)
+}
+
+/**
+ * Fallback for unrecognized commands.
+ * @param {string} [command] Command name
+ */
+function handleDefault (command) {
+  outputHeader()
+
+  console.log('\nPlease use one of the following commands:')
+  console.log('  - create <name>')
+
+  if (command) {
+    console.log(red(`\nUnknown command <${yellow(command)}>.`))
+  }
+}
+
+switch (command) {
+  case 'create':
+    handleCreate(process.argv[3])
+    break
+  default:
+    handleDefault(command)
+}
