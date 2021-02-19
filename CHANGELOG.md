@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [2.3.0-rc.1](https://github.com/pangolinjs/cli/compare/v2.3.0-rc.0...v2.3.0-rc.1) (2021-02-19)
+
+
+### Features
+
+* Set projects as type module ([ecaace5](https://github.com/pangolinjs/cli/commit/ecaace5a09b9e0bce2c371ea50205ab71647ee32))
+
 ## [2.3.0-rc.0](https://github.com/pangolinjs/cli/compare/v2.3.0-beta.0...v2.3.0-rc.0) (2021-01-14)
 
 
