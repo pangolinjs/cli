@@ -1,7 +1,3 @@
 module.exports = {
-  plugins: {
-    '@pangolinjs/postcss-preset-env': {
-      stage: 3
-    }
-  }
+  plugins: ['postcss-preset-evergreen']
 }
