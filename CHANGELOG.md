@@ -2,6 +2,19 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [2.3.0](https://github.com/pangolinjs/cli/compare/v2.3.0-rc.1...v2.3.0) (2021-06-13)
+
+
+### Features
+
+* Install more dependencies as peers ([80052dd](https://github.com/pangolinjs/cli/commit/80052dddbd703df42a803cbd6a8244a6b9c0ef63))
+* Set explicit Node.js version ([3d81893](https://github.com/pangolinjs/cli/commit/3d81893c5e87a674faddf7146fd1c03fab271fe9))
+
+
+### Bug Fixes
+
+* **template:** Add bold + italic text ([cf0226c](https://github.com/pangolinjs/cli/commit/cf0226c8e2c9cd1993d3f68145b1a4c1a612bee4))
+
 ## [2.3.0-rc.1](https://github.com/pangolinjs/cli/compare/v2.3.0-rc.0...v2.3.0-rc.1) (2021-02-19)
 
 
