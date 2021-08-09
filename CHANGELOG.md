@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [2.4.0](https://github.com/pangolinjs/cli/compare/v2.3.0...v2.4.0) (2021-08-09)
+
+
+### Features
+
+* Bump Node compatibility to 15 or higher ([1b1be96](https://github.com/pangolinjs/cli/commit/1b1be968f3c61184b9309a28be75e0cc2b514271))
+
 ## [2.3.0](https://github.com/pangolinjs/cli/compare/v2.3.0-rc.1...v2.3.0) (2021-06-13)
 
 
