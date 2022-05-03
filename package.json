@@ -26,7 +26,7 @@
     "lint:js": "eslint --ignore-path .gitignore '**/*.js'",
     "lint:css": "stylelint --ignore-path .gitignore 'template/**/*.scss'",
     "test:unit": "c8 --reporter text --reporter html --all ava --verbose",
-    "test:create": "rm --recursive test/project && node bin/pangolin.js create test/project",
+    "test:create": "rm --recursive --force test/project && node bin/pangolin.js create test/project",
     "test:dev": "cd test/project && npm run dev",
     "test:build": "cd test/project && npm run build",
     "test:docs": "cd test/project && npm run docs",
@@ -37,23 +37,23 @@
   },
   "dependencies": {
     "kleur": "^4.1.4",
-    "prompts": "^2.4.1"
+    "prompts": "^2.4.2"
   },
   "devDependencies": {
-    "@pangolinjs/eslint-config": "^5.3.0",
-    "@pangolinjs/stylelint-config": "^2.0.6",
-    "ava": "^3.15.0",
-    "c8": "^7.8.0",
-    "eslint": "^7.32.0",
-    "eslint-config-standard": "^16.0.3",
-    "eslint-plugin-ava": "^12.0.0",
-    "eslint-plugin-import": "^2.24.0",
-    "eslint-plugin-node": "^11.1.0",
-    "eslint-plugin-promise": "^5.1.0",
-    "standard-version": "^9.3.1",
-    "stylelint": "^13.13.1",
-    "stylelint-order": "^4.1.0",
-    "stylelint-scss": "^3.20.1"
+    "@pangolinjs/eslint-config": "^6.0.0",
+    "@pangolinjs/stylelint-config": "^3.0.1",
+    "ava": "^4.2.0",
+    "c8": "^7.11.2",
+    "eslint": "^8.14.0",
+    "eslint-config-standard": "^17.0.0",
+    "eslint-plugin-ava": "^13.2.0",
+    "eslint-plugin-import": "^2.26.0",
+    "eslint-plugin-n": "^15.2.0",
+    "eslint-plugin-promise": "^6.0.0",
+    "standard-version": "^9.3.2",
+    "stylelint": "^14.8.1",
+    "stylelint-order": "^5.0.0",
+    "stylelint-scss": "^4.2.0"
   },
   "engines": {
     "node": ">= 12"
