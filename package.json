@@ -1,6 +1,6 @@
 {
   "name": "@pangolinjs/cli",
-  "version": "2.4.0",
+  "version": "2.4.1",
   "description": "CLI for creating new Pangolin.js projects.",
   "license": "Hippocratic-3.0",
   "author": {

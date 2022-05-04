@@ -2,6 +2,14 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [2.4.1](https://github.com/pangolinjs/cli/compare/v2.4.0...v2.4.1) (2022-05-04)
+
+
+### Bug Fixes
+
+* **template:** Add `<em>` to global text sample ([33cfe9b](https://github.com/pangolinjs/cli/commit/33cfe9b982a2c63acda4f170697b18025ee9892e))
+* Update Hippocratic License version ([249f756](https://github.com/pangolinjs/cli/commit/249f756c82c5f2671d8b063b1ab6551a14b60e98))
+
 ## [2.4.0](https://github.com/pangolinjs/cli/compare/v2.3.0...v2.4.0) (2021-08-09)
 
 
