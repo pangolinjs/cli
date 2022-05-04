@@ -30,7 +30,7 @@
     "test:dev": "cd test/project && npm run dev",
     "test:build": "cd test/project && npm run build",
     "test:docs": "cd test/project && npm run docs",
-    "release": "standard-version"
+    "release": "standard-version --sign"
   },
   "bin": {
     "pangolin": "./bin/pangolin.js"
